@@ -122,3 +122,58 @@ H0 tidak ditolak karena tidak ada cukup bukti yang bertentangan dengan H0
 ```
 Jadi, tidak ada perbedaan yang signifikan dari rata-rata saham di Bandung dan Bali
 ```
+
+## Soal 4
+
+Seorang Peneliti sedang meneliti spesies dari kucing di ITS . Dalam penelitiannya
+ia mengumpulkan data tiga spesies kucing yaitu kucing oren, kucing hitam dan
+kucing putih dengan panjangnya masing-masing.
+
+Jika :
+diketahui dataset https://intip.in/datasetprobstat1
+H0 : Tidak ada perbedaan panjang antara ketiga spesies atau rata-rata panjangnya
+sama
+Maka Kerjakan atau Carilah:
+
+A. Buatlah masing masing jenis spesies menjadi 3 subjek "Grup" (grup 1,grup
+2,grup 3). Lalu Gambarkan plot kuantil normal untuk setiap kelompok dan
+lihat apakah ada outlier utama dalam homogenitas varians.
+
+B. carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang
+didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
+
+C. Untuk uji ANOVA (satu arah), buatlah model linier dengan Panjang versus
+Grup dan beri nama model tersebut model 1.
+
+D. Dari Hasil Poin C, Berapakah nilai-p ? , Apa yang dapat Anda simpulkan
+dari H0?
+
+E. Verifikasilah jawaban model 1 dengan Post-hoc test Tukey HSD, dari nilai p
+yang didapatkan apakah satu jenis kucing lebih panjang dari yang lain?Jelaskan.
+F. Visualisasikan data dengan ggplot2
+
+## Soal 5
+
+Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk
+mengetahui pengaruh suhu operasi (100˚C, 125˚C dan 150˚C) dan tiga jenis kaca
+pelat muka (A, B dan C) pada keluaran cahaya tabung osiloskop. Percobaan
+dilakukan sebanyak 27 kali dan didapat data sebagai berikut: Data Hasil
+Eksperimen. Dengan data tersebut:
+
+a. Buatlah plot sederhana untuk visualisasi data
+
+b. Lakukan uji ANOVA dua arah
+
+c. Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk
+setiap perlakuan (kombinasi kaca pelat muka dan suhu operasi)
+
+d. Lakukan uji Tukey
+
+e. Gunakan compact letter display untuk menunjukkan perbedaan signifikan
+antara uji Anova dan uji Tukey
+Berikut adalah contoh daftar package dan fungsi yang dapat digunakan (dapat pula
+menggunakan contoh lainnya)
+
+● Packages: readr, ggplot2, multcompView, dplyr
+
+● Function: aov, TukeyHSD, qplot, group_by, summarise, multcompLetters4
