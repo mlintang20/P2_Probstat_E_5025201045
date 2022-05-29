@@ -46,19 +46,25 @@ t.test(tabel_saturasi_oksigen$Y, tabel_saturasi_oksigen$X, alternative = "greate
 
 Apakah Anda setuju dengan klaim tersebut?
 
-`Setuju`
+```
+Setuju
+```
 
 ### 2b
 
 Jelaskan maksud dari output yang dihasilkan!
 
-`output dari z-tes adalah : z = 8.9744 , p-value = 2.2e-16`
+```
+output dari z-tes adalah : z = 8.9744 , p-value = 2.2e-16
+```
 
 ### 2c
 
 Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 
-`Berdasarkan p-value yaitu 2.2e-16 dimana lebih kecil dari nilai alfa (0.05), maka H0 dapat ditolak, sehingga kesimpulannya adalah mobil dikemudikan rata-rata lebih dari 20000 km per tahun`
+```
+Berdasarkan p-value yaitu 2.2e-16 dimana lebih kecil dari nilai alfa (0.05), maka H0 dapat ditolak, sehingga kesimpulannya adalah mobil dikemudikan rata-rata lebih dari 20000 km per tahun
+```
 
 ## Soal 3
 
