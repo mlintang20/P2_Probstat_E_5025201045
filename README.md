@@ -70,14 +70,43 @@ Berdasarkan p-value yaitu 2.2e-16 dimana lebih kecil dari nilai alfa (0.05), mak
 
 ### 3a
 
+```
+H0: mu_Bandung = mu_Bali
+H1: mu_Bandung != mu_Bali
+```
+
 ### 3b
+
+Dilakukan t test karena n < 30, kemudian dilakukan perhitungan dengan menggunakan fungsi tsum.test() :
+
+```r
+tsum.test(mean.x = mean_bandung, s.x = sd_bandung, n.x = n_bandung, mean.y = mean_bali, s.y = sd_bali, n.y = n_bali, var.equal = TRUE, conf.level = 0.95)
+```
 
 ![alt text](https://github.com/mlintang20/P2_Probstat_E_5025201045/blob/master/images/ss_3b.png?raw=true)
 
 ### 3d
 
+Menggunakan fungsi qt() dari R :
+
+```r
+qt(p = 0.05, df = 2)
+```
+
 ![alt text](https://github.com/mlintang20/P2_Probstat_E_5025201045/blob/master/images/ss_3d.png?raw=true)
 
 ### 3e
 
+#### Keputusan
+
+```
+H0 tidak ditolak karena tidak ada cukup bukti yang bertentangan dengan H0
+```
+
 ### 3f
+
+#### Kesimpulan
+
+```
+Jadi, tidak ada perbedaan yang signifikan dari rata-rata saham di Bandung dan Bali
+```
