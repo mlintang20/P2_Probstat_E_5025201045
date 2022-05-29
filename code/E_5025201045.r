@@ -118,6 +118,10 @@ tsum.test(mean.x = mean_bandung, s.x = sd_bandung, n.x = n_bandung, mean.y = mea
 #p-value = 0.06049, alfa = 0.05
 #p-value > alfa, maka H0 tidak ditolak
 
+install.packages("mosaic")
+library(mosaic)
+plotDist(dist='t',df=2, col="blue")
+
 #nilai kritikal
 qt(p = 0.05, df = 2)
 

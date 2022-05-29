@@ -85,6 +85,18 @@ tsum.test(mean.x = mean_bandung, s.x = sd_bandung, n.x = n_bandung, mean.y = mea
 
 ![alt text](https://github.com/mlintang20/P2_Probstat_E_5025201045/blob/master/images/ss_3b.png?raw=true)
 
+### 3c
+
+Menggunakan library mosaic, dilakukan uji statistik menggunakan fungsi plotDist() dengan nilai df = 2 sebagai berikut :
+
+```r
+install.packages("mosaic")
+library(mosaic)
+plotDist(dist='t',df=2, col="blue")
+```
+
+![alt text](https://github.com/mlintang20/P2_Probstat_E_5025201045/blob/master/images/ss_3c.png?raw=true)
+
 ### 3d
 
 Menggunakan fungsi qt() dari R :
