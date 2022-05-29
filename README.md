@@ -1,5 +1,13 @@
 # P2_Probstat_E_5025201045
 
+## Muhammad Lintang Panjerino
+
+## 5025201045
+
+## Probstat E
+
+<br>
+
 ## Soal 1
 
 ### 1a
